@@ -1,0 +1,22 @@
+[
+    {
+        "firstRestaurant": "McDonald's",
+        "number": 3,
+        "isCafe": false, 
+        "menu": [
+            "McNuggets",
+            "French Fries",
+            "Sandwiches",
+            "Cold Drinks"
+        ],
+        "chosenRestaurant": "City Center",
+        "howToGetThere": "bus"
+    },
+    {
+        "restaurant": "Pizza Hut",
+        "numberOfRestaturants": 5,
+        "closestRestaurant": "North part",
+        "working Hours": "from 11 till 22"
+    }
+]
+

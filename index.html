@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>JSON</h1>
+
+<p>Generally speaking, we use the Objects and the Arrays.</p>
+<p>But, if we put whole JSON in `` , you will see string in the console</p>
+
+<script>
+    let restaurants =
+    `[
+        {
+            "restaurant": "McDonald's",
+            "number": "3 restaurants",
+            "isCafe": false, 
+            "menu": [
+                "McNuggets",
+                "French Fries",
+                "Sandwiches",
+                "Cold Drinks"
+            ],
+            "chosenRestaurant": "City Center",
+            "howToGetThere": "bus"
+        },
+        {
+            "restaurant": "Pizza Hut",
+            "number": 5,
+            "closestRestaurant": "North part",
+            "working Hours": "from 11 till 22",
+            "menu": [
+                "pizza",
+                "salads",
+                "cold drinks"
+            ]
+        }
+    ]`
+    console.log(JSON.parse(restaurants)[1].restaurant)
+    console.log(JSON.parse(restaurants)[1])
+    console.log(JSON.parse(restaurants)[0].restaurant)
+    console.log(JSON.parse(restaurants)[0].number)
+ 
+
+</script>
+
+<p>Now, you can see the string of JSON</p>
+<p>Just press F12</p>
+    
+<script>
+    
+    
+</script>
+
+
+</body>
+</html>
